@@ -28,7 +28,7 @@ function changeLayout() {
     } else {
         let allRows = document.querySelectorAll(".row");
         allRows.forEach((row) => {
-            row.classList.add("disappear")
+            row.remove();
         })
 
         let i = 0;
