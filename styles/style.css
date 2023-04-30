@@ -7,20 +7,21 @@ body {
 #container {
     display: flex;
     flex-direction: column;
+    width: 640px;
+    height: 640px;
+    flex: 1 1 auto;
 }
 
 
 .row {
     display: flex;
     justify-content: center;
-    height: 40px;
-    width: 640px;
+    flex: 1 1 auto;
 }
 
 
 .box {
-    display: flex;
-    min-width: 40px;
+    flex: 1 1 0%;
     background-color: white;
     border: 1px solid black;
 }
