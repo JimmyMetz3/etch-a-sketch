@@ -4,19 +4,35 @@ body {
     align-items: center;
 }
 
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .row {
     display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 640px;
 }
 
 
 .box {
-    width: 40px;
-    height: 40px;
+    display: flex;
+    min-width: 40px;
     background-color: white;
     border: 1px solid black;
 }
 
 .highlighted {
     background-color: red;
+}
+
+button {
+    margin: 20px 10px;
+}
+
+.disappear {
+    display: none;
 }
